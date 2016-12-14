@@ -1,4 +1,11 @@
+
 # VitalSignex
+
+
+```
+
+%Database.Snitch{name: "Macellum UI test", alert_email: "some@email.com", slack_webhook: nil, tags: []} |> Model.Snitch.writ
+```
 
 To start your Phoenix app:
 
@@ -17,3 +24,8 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+=======
+
+
+Deadmans Snitch &amp; Pingdom in one
+
