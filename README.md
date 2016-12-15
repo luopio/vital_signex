@@ -1,5 +1,15 @@
 # VitalSignex
 
+## Setup
+
+`mix amnesia.create -db Database --disk`
+
+```
+
+%Database.Snitch{name: "Macellum UI test", alert_email: "some@email.com", slack_webhook: nil, tags: []} |> Model.Snitch.write
+```
+
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`

@@ -1,2 +1,2 @@
 ExUnit.start
-
+Amnesia.start

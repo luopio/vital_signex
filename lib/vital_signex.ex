@@ -5,6 +5,8 @@ defmodule VitalSignex do
   # for more information on OTP Applications
   def start(_type, _args) do
     import Supervisor.Spec
+    :mnesia.create_schema([node()])
+    Amnesia.start
 
     # Define workers and child supervisors to be supervised
     children = [
